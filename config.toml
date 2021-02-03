@@ -1,6 +1,8 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://SatoruItaya.github.io/portfolio"
 languageCode = "en-us"
 theme = "aafu"
+publishDir = "docs"
+canonifyurls = true
 
 [params]
     title = "portfolio"
