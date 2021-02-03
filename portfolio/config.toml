@@ -3,16 +3,15 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
+    title = "portfolio"
     author = "Darshan Baral"
     description = "Website title"
-    copyright = "aaa"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
-        mainTheme = "light"
+        mainTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
         singlePage = false
 
     [params.favicons]
@@ -28,10 +27,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-		tagline = "Title"
-		location = "City Name, ST"
-        photo = "profile.jpg"
+        name = "Satoru Itaya"
+		location = "Tokyo, Japan"
+        photo = "profile.jpeg"
 
     # Section for links to social websites
     [params.social]
@@ -40,40 +38,22 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/satoru-itaya/"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
-            icon = "fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
-        [[params.social.list]]
-            class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/SatoruItaya"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
-            url = "#"
+            url = "https://twitter.com/SItaya5"
             title = "Twitter"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-researchgate"
-            url = "#"
-            title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
-        item = "aboutme"
-        expand = true   # true for the section that is initially expanded
-    [[params.showInAccordion]]
-        item = "experience"
+        item = "career"
     [[params.showInAccordion]]
         item = "education"
     [[params.showInAccordion]]
@@ -85,26 +65,23 @@ theme = "aafu"
     [[params.showInAccordion]]
         item = "hobby"
 
-    [params.aboutme]
-        title = "About Me"
-        icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
     # Experience section
-    [params.experience]
-        title = "Experiences"
-        icon = "fas fa-briefcase"
+    [params.career]
+        title = "Career"
+        icon = "fas fa-building"
 
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
-            company = "Company Name"
+        [[params.career.list]]
+            position = "Engineer"
+            dates = "2020.1 ~"
+            link = "https://gunosy.co.jp/"
+            company = "Gunosy Inc."
+            details = "SRE Devision"
+        [[params.career.list]]
+            position = "Engineer, Consultant"
+            dates = "2015.4 ~ 2019.12"
+            link = "https://www.mizuho-ir.co.jp/index.html"
+            company = "Mizuho Information & Reaearch Institute"
+            details = "Markets Degital Technology Devision"
 
     # Education section
     [params.education]
