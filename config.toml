@@ -91,21 +91,15 @@ canonifyurls = true
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
+            degree = "Master in Physics"
+            college = "Tokyo University of Science"
+            dates = "2013 - 2015"
+            thesis_title = "Vortex solutions in a Witten-type model"
+            thesis_link = "https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012014"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "Bachelor in Physics"
+            college = "Tokyo University of Science"
+            dates = "2009 - 2013"
 
     # Publication section
     [params.publication]
