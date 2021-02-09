@@ -1,0 +1,14 @@
+{{ range .Site.Params.posts.list }}
+<dl>
+  <dd class="mb-0 ml-3">
+    <a href="{{ .site_link }}"
+       ><i>{{ .site_title }}</i></a>
+  </dd>
+  {{ range .Site.Params.posts.page }}
+  <dd class="mb-0 ml-4">
+    <a href="{{ .page_link }}"
+       ><i>{{ .page_title }}</i></a>
+  </dd>
+  {{ end }}
+</dl>
+{{ end }}
