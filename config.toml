@@ -127,13 +127,10 @@ canonifyurls = true
         icon = "fas fa-sticky-note"
 
         [[params.posts.list]]
-            site_title = "Gunosy Tech Blog"
+            type = "Gunosy Tech Blog"
             site_link = "https://tech.gunosy.io/"
-            [[params.posts.page]]
-            page_title = "test"
-            page_link = "https://tech.gunosy.io/entry/fitbit-activity-notifier"
         [[params.posts.list]]
-            site_title = "Qiita"
+            type = "Qiita"
             site_link = "https://qiita.com/str416yb"
 
 

@@ -1,14 +1,16 @@
-{{ range .Site.Params.posts.list }}
-<dl>
-  <dd class="mb-0 ml-3">
-    <a href="{{ .site_link }}"
-       ><i>{{ .site_title }}</i></a>
-  </dd>
-  {{ range .Site.Params.posts.page }}
-  <dd class="mb-0 ml-4">
-    <a href="{{ .page_link }}"
-       ><i>{{ .page_title }}</i></a>
-  </dd>
-  {{ end }}
-</dl>
+{{ if .Site.Params.posts }}
+{{ range $.Site.Params.posts.list }}
+<!-- Gunosy Tech Blog -->
+{{ if eq .type "Gunosy Tech Blog" }}
+<a href="{{ .site_link }}"><font color="white">Gunosy Tech Blog</font></a>
+<p></p>
 {{ end }}
+
+{{ if eq .type "Qiita" }}
+<!-- Qiita -->
+<a href="{{ .site_link }}"><font color="white">Qiita</font></a>
+<p>
+{{ end }}
+{{ end }}
+{{ end }}
+
