@@ -1,9 +1,13 @@
 {{ if .Site.Params.posts }}
-{{ range $.Site.Params.posts.list }}
+{{ range $.Site.Params.posts.type }}
 <!-- Gunosy Tech Blog -->
 {{ if eq .type "Gunosy Tech Blog" }}
 <a href="{{ .site_link }}"><font color="white">Gunosy Tech Blog</font></a>
 <p></p>
+{{ range .pages }}
+<a href="{{ .url }}">{{ .name }}</a>
+<p>
+{{ end }}
 {{ end }}
 
 {{ if eq .type "Qiita" }}

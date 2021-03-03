@@ -126,10 +126,15 @@ canonifyurls = true
         title = "Posts"
         icon = "fas fa-sticky-note"
 
-        [[params.posts.list]]
+        [[params.posts.type]]
             type = "Gunosy Tech Blog"
             site_link = "https://tech.gunosy.io/"
-        [[params.posts.list]]
+            pages = [{ name = "Fitbitのカスタムレポートを作成してLINEに通知する", url = "https://tech.gunosy.io/entry/fitbit-activity-notifier" },
+                     { name = "AWS Node Termination Handlerの新機能について", url = "https://tech.gunosy.io/entry/aws-node-termination-handler-new-feature" },
+                     { name = "ECSのログ管理にFirelensを導入してみた", url = "https://tech.gunosy.io/entry/introducing-firelens" }]
+            
+
+        [[params.posts.type]]
             type = "Qiita"
             site_link = "https://qiita.com/str416yb"
 
