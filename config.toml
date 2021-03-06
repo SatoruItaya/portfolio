@@ -61,8 +61,6 @@ canonifyurls = true
     [[params.showInAccordion]]
         item = "publication"
     [[params.showInAccordion]]
-        item = "project"
-    [[params.showInAccordion]]
         item = "posts"
     [[params.showInAccordion]]
         item = "skill"
