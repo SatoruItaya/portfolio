@@ -7,7 +7,7 @@ canonifyurls = true
 [params]
     title = "portfolio"
     author = "Darshan Baral"
-    description = "Website title"
+    description = "Satoru Itaya's portfolio"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
