@@ -1,11 +1,11 @@
 {{ if .Site.Params.posts }}
 {{ range $.Site.Params.posts.type }}
-<a href="{{ .site_link }}"><font color="white">{{ .type}}</font></a>
+<a href="{{ .site_link }}"><font color="white"><u>{{ .type}}</u></font></a>
 <p></p>
 {{ if .pages}}
 {{ range .pages }}
 <a href="{{ .url }}">{{ .name }}</a>
-<p>
+<p></p>
 {{ end }}
 {{ end }}
 {{ end }}
