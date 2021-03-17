@@ -1,0 +1,6 @@
+{{ range .Site.Params.presentation.list }}
+<a href="{{ .conference_site_link }}"><font color="white"><u>{{ .conference }}</u></font></a>
+<p></p>
+<a href="{{ .material_link }}">{{ .title }}</a>
+<p></p>
+{{ end }}

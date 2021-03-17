@@ -63,6 +63,8 @@ canonifyurls = true
     [[params.showInAccordion]]
         item = "posts"
     [[params.showInAccordion]]
+        item = "presentation"
+    [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
         item = "hobby"
@@ -136,6 +138,16 @@ canonifyurls = true
             type = "Qiita"
             site_link = "https://qiita.com/str416yb"
 
+    # Presentation section
+    [params.presentation]
+        title = "Presentation"
+        icon = "fas fa-file-powerpoint"
+        
+        [[params.presentation.list]]
+            conference = "CloudNative Days Tokyo 2019"
+            conference_site_link = "https://cloudnativedays.jp/cndt2019"
+            title = "〈みずほ〉におけるAWS・Kubernetesを活用したリアルタイム為替予測のアプリケーション開発"
+            material_link = "https://www.mizuho-ir.co.jp/publication/report/2019/pdf/fe33.pdf"
 
     # Hobby section
     [params.hobby]
