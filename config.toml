@@ -76,7 +76,7 @@ canonifyurls = true
 
         [[params.career.list]]
             position = "Engineer"
-            dates = "2020.1 ~"
+            dates = "2020.1 ~ 2021.8"
             link = "https://gunosy.co.jp/"
             company = "Gunosy Inc."
             details = "SRE Devision"
