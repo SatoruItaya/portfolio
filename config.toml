@@ -76,6 +76,12 @@ canonifyurls = true
 
         [[params.career.list]]
             position = "Engineer"
+            dates = "2021.8 ~"
+            link = "https://corp.moneyforward.com/"
+            company = "Money Forward, Inc."
+            details = "Architecture Devision, SRE Group"
+        [[params.career.list]]
+            position = "Engineer"
             dates = "2020.1 ~ 2021.7"
             link = "https://gunosy.co.jp/"
             company = "Gunosy Inc."
