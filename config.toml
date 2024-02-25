@@ -89,7 +89,7 @@ canonifyurls = true
         [[params.career.list]]
             position = "Engineer, Consultant"
             dates = "2015.4 ~ 2019.12"
-            link = "https://www.mizuho-rt.co.jp/publication/report/2019/pdf/fe33.pdf"
+            link = "https://www.mizuho-ir.co.jp/index.html"
             company = "Mizuho Information & Reaearch Institute"
             details = "Markets Degital Technology Devision"
 
@@ -153,7 +153,7 @@ canonifyurls = true
             conference = "CloudNative Days Tokyo 2019"
             conference_site_link = "https://cloudnativedays.jp/cndt2019"
             title = "〈みずほ〉におけるAWS・Kubernetesを活用したリアルタイム為替予測のアプリケーション開発"
-            material_link = "https://www.mizuho-ir.co.jp/publication/report/2019/pdf/fe33.pdf"
+            material_link = "https://www.mizuho-rt.co.jp/publication/report/2019/pdf/fe33.pdf"
 
     # Hobby section
     [params.hobby]
